@@ -12,7 +12,7 @@ public class LuckyTicket {
 
 		// create output values
 
-		int sumLeft = ((ticket%1000000)+(ticket%100000)+(ticket%10000));
+		int sumLeft = ((ticket%100000)+(ticket%100000)+(ticket%10000));
 		int sumRight = ((ticket%1000)+(ticket%100)+(ticket%10));
 		boolean lackyTicket = true;
 		boolean bedTicket = false;
